@@ -23,12 +23,6 @@ btnReset.addEventListener("click", resetTimer)
 
 // Utils
 
-function renderDefauldTime(min, sec, mill) {
-    minuts.innerText = `${min}`
-    seconds.innerText = `${sec}`
-    millisec.innerText = `${mill}`
-}
-
 function btnStartDisabled(value) {
     btnStart.disabled = value
 }
@@ -46,6 +40,12 @@ function hiddenBtnRed(value) {
 }
 
 // render
+
+function renderDefauldTime(min, sec, mill) {
+    minuts.innerText = `${min}`
+    seconds.innerText = `${sec}`
+    millisec.innerText = `${mill}`
+}
 
 function renderMillSec() {
     millsec++
