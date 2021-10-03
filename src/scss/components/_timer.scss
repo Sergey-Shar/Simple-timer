@@ -1,0 +1,115 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: black;
+
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 400px;
+  max-height: 500px;
+
+  &__time-container {
+    display: flex;
+  }
+
+  &__minuts {
+    font-size: 70px;
+    color: #ffff;
+  }
+
+  &__seconds {
+    font-size: 70px;
+    color: #ffff;
+  }
+
+  &__milliseconds {
+    font-size: 70px;
+    color: #ffff;
+  }
+
+  &__btn-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    margin: 40px;
+    color: #ffff;
+  }
+
+  &__btn-start {
+    position: absolute;
+    right: auto;
+    left: 4%;
+    top: 8%;
+    bottom: auto;
+    margin-right: 10px;
+    color: #00ff00;
+    background: rgb(4, 51, 4);
+    border-radius: 50%;
+    border: solid 2px black;
+    padding: 19px 9px 19px 9px;
+    z-index: 3;
+  }
+
+  &__circle-green {
+    position: relative;
+    width: 68px;
+    height: 68px;
+    background: rgb(4, 51, 4);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+
+  &__btn-reset {
+    position: absolute;
+    right: auto;
+    left: 4%;
+    top: 8%;
+    bottom: auto;
+    margin-right: 10px;
+    color: #ffff;
+    background: rgb(49, 48, 48);
+    border-radius: 50%;
+    border: solid 2px black;
+    padding: 19px 9px 19px 9px;
+    z-index: 3;
+  }
+
+  &__circle-gray {
+    position: relative;
+    width: 68px;
+    height: 68px;
+    background: rgb(49, 48, 48);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+
+  &__btn-stop {
+    position: absolute;
+    right: auto;
+    left: 7%;
+    top: 8%;
+    bottom: auto;
+    margin-right: 10px;
+    color: red;
+    background: #800000;
+    border-radius: 50%;
+    border: solid 2px black;
+    padding: 19px 11px 19px 11px;
+    z-index: 3;
+  }
+
+  &__circle-red {
+    position: relative;
+    width: 68px;
+    height: 68px;
+    background: #800000;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+}
