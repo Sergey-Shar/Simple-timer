@@ -1,7 +1,5 @@
 ## Simple-timer
 
-### First job in native JavaScript". 
-
 ### Tools :hammer:
 
 * HTML5
